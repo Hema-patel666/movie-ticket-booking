@@ -1,0 +1,16 @@
+<div class="col-xs-4">
+    <img class="imageClass" src="student.studentPhoto" alt="Image not Recognized"/>
+    
+  </div>
+
+  <!-- how can I set the src attribute -->
+
+  <form #f="ngForm">
+
+  <input id="photo" name="studentPhoto" type="file" (change)="setPhoto($event)" class="form-control">
+<button class="btn btn-primary" (click) = "onClickSubmit()">submit</button>
+
+<button (click)="showImage()">showImage</button>
+<img [src]="imageUrl" height="100" width="100" class="img-thumnail">
+
+</form>

@@ -1,0 +1,10 @@
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.mat-sidenav{
+    padding:50px;
+    background: linear-gradient(skyblue,red,orange,green);
+}
+.menu-spacer{
+    flex: auto 1 1;
+}

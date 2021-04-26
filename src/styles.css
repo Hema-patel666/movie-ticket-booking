@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css';
+
+
+html, body { height: 100%; }
+body {
+     margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    color:rgb(236, 229, 229);
+    text-align: left;
+    background-color: rgb(71, 67, 67);
+    font-weight: 400;
+}
